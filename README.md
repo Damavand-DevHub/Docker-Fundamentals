@@ -22,3 +22,4 @@ docker pull learndataengineering/my-repo:latest
 docker images -f dangling=true
 
 docker rmi -f $(docker images -f "dangling=true" -q)
+
